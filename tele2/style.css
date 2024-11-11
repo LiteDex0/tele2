@@ -1,0 +1,383 @@
+@font-face{
+    font-family: "Leto Text Sans Defect";
+    src: url("front/Leto\ Text\ Sans\ Defect.otf") format("opentype");
+    font-family: "standardctstencil-bold";
+    src: url("front/StandardCTStencil-Bold.otf") format("opentype");
+}
+/* верхняя панель*/
+body{
+    background-color: #1f2229;
+}
+.up{
+    font-family: "Leto Text Sans Defect";
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #383d4a;
+    padding: 10px;
+}
+.block_up{
+    display: flex;
+}
+.text_up{
+    height: 32px;
+    color: #FFFFFF;
+    text-decoration: none;
+    padding-top: 5px;
+}
+
+/* кнопка с мужиком*/
+.main{
+    display: flex;
+    justify-content: center;
+}
+.main_text{
+    color: #FFFFFF;
+}
+.main_text1{
+    font-family: "Leto Text Sans Defect";
+    padding-top: 83px;
+    padding-bottom: 48px;
+    font-size: 20px;
+}
+.main_text2{
+    font-family: "standardctstencil-bold";
+    font-size: 68px;
+}
+.main_text2_2{
+    color: #48ccfd;
+    font-family: "standardctstencil-bold";
+    padding-bottom: 24px;
+    font-size: 68px;
+}
+.main_text3{
+    font-family: "Leto Text Sans Defect";
+    padding-bottom: 56px;
+    font-size: 20px;
+    word-break: normal;
+    max-width: 400px ;   
+}
+.main_button{
+    font-family: "Leto Text Sans Defect";
+    text-decoration: none;
+    font-size: 18px;
+    color: black;
+    border: none;
+    border-radius: 30px;
+    text-decoration: none;
+    background: #ffffff;
+    padding-top: 19px;
+    padding-right: 44px;
+    padding-bottom: 19px;
+    padding-left: 44px;
+}
+.main_button:hover{
+    opacity: 0.3;
+}
+.main_img{
+    padding-top: 56px;
+}
+
+/* текст про терабайт*/
+.midle{
+    display: grid;
+    justify-content: center;
+}
+.midle_text1{
+    font-weight: 900;
+    padding-top: 148px;
+    font-family:"Leto Text Sans Defect";
+    color: #FFFFFF;
+    font-size: 40px;
+}
+.midle_text2{
+    padding-top: 24px;
+    font-family:"Leto Text Sans Defect";
+    color: #FFFFFF;
+    font-size: 20px;
+    word-break: normal;
+    max-width: 600px ;  
+}
+
+/* 3 иконки посередине */
+.icon{
+    padding-top: 56px;
+    display: flex;
+    justify-content: center;
+    font-family:"Leto Text Sans Defect";
+    color: #FFFFFF;
+}
+.video_icon{
+    display: flex;
+    justify-content: center;
+}
+.audio_icon{
+    display: flex;
+    justify-content: center; 
+    margin: 0 60px
+}
+.photo_icon{
+    display: flex;
+    justify-content: center; 
+}
+.video_text{
+    padding-top: 25px;
+    padding-left: 16px;
+}
+.audio_text{
+    padding-top: 25px;
+    padding-left: 16px;
+}
+.photo_text{
+    padding-top: 25px;
+    padding-left: 16px;
+}
+/* форма */
+.form{
+    display: grid;
+    justify-content: center; 
+}
+.form_text1{
+    font-family:"Leto Text Sans Defect";
+    color: #FFFFFF;
+    font-size: 40px;
+    font-weight: 700;
+}
+.form_text1_1{
+    margin-bottom: 64px;
+    font-family:"Leto Text Sans Defect";
+    color: #48CCFD;
+    font-size: 40px;
+    font-weight: 700;
+}
+.phone_text{
+    font-family:"Leto Text Sans Defect";
+    color: #999;
+    font-size: 13px;
+    font-weight: 400;
+} 
+.tel_phone{
+    outline: none !important;
+    border: none;
+    background-color: #1f2229;
+    color: #FFFFFF;
+    border-bottom: 1px solid #383d4a;
+}
+.checkbox{
+    margin-top: 24px;
+    margin-bottom: 32px;
+    display: flex;
+    justify-content: center; 
+}
+.text_checbox{
+    font-family:"Leto Text Sans Defect";
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: 400;
+    max-width: 348px;
+
+}
+.checbox_button{
+    font-family: "Leto Text Sans Defect";
+    text-decoration: none;
+    font-size: 18px;
+    color: black;
+    border: none;
+    border-radius: 30px;
+    text-decoration: none;
+    background: #ffffff;
+    padding-top: 19px;
+    padding-right: 44px;
+    padding-bottom: 19px;
+    padding-left: 44px;
+    max-width: 600px;
+}
+.checbox_button:hover{
+    opacity: 0.3;
+}
+/* .phone_promo{
+    margin-top: 48px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    display: flex;
+    justify-content: center; 
+    background-color: #262B36;
+    border-radius: 8px;
+    max-width: 348px;
+    color: #FFFFFF;
+} */
+.promo_text{
+    padding-top: 2px;
+    padding-left: 12px;
+}
+.guide{
+    display: grid;
+    justify-content: center; 
+}
+.guide_block{
+    font-family: "Leto Text Sans Defect";
+    display: flex;
+    color: #FFFFFF;
+}
+.guide_text{
+    max-width: 400px;
+    font-size: 20px;
+    padding-top: 30px;
+    padding-left: 24px;
+}
+.guide_text2{
+    font-family: "Leto Text Sans Defect";
+    color: #FFFFFF;
+}
+.form_block{
+    display: flex;
+    justify-content: center; 
+    margin-top: 148px;
+}
+
+/* тариф */
+.midle2{
+    padding-top: 200px;
+    display: flex;
+    justify-content: center; 
+}
+.midle2_block{
+    margin-top: 100px;
+    margin-right: 116px;
+}
+.midle2_text1{
+    padding-top: 30px;
+    font-family: "Leto Text Sans Defect";
+    color: #FFFFFF;
+    font-size: 40px;
+    font-weight: 700;
+}
+.midle2_text2{
+    padding-top: 48px;
+    padding-bottom: 48px;
+    font-family: "Leto Text Sans Defect";
+    color: #FFFFFF;
+    font-size: 20px;
+    max-width: 513px;
+}
+.midle2_button{
+    font-family: "Leto Text Sans Defect";
+    text-decoration: none;
+    font-size: 18px;
+    color: black;
+    border: none;
+    border-radius: 30px;
+    text-decoration: none;
+    background: #ffffff;
+    padding-top: 19px;
+    padding-right: 44px;
+    padding-bottom: 19px;
+    padding-left: 44px;
+}
+.midle2_button:hover{
+    opacity: 0.2;
+}
+
+/* соц сеть */
+.soc{
+    margin-top: 158px;
+    display: flex;
+    justify-content: center; 
+    border-bottom: 1px solid #383d4a;
+    grid-gap:700px
+}
+.about{
+    display: flex;
+}
+.about_text{
+    padding-top: 6px;
+    padding-right: 12px;
+    font-family: "Leto Text Sans Defect";
+    color: #FFFFFF;
+    text-decoration: none;
+    font-size: 13px;
+}
+/* подвал */
+.footer{
+    padding-top: 55px;
+    display: flex;
+    justify-content: center; 
+    grid-gap:700px
+}
+.text_footer{
+    padding-left: 24px;
+    padding-top: 7px;
+    font-family: "Leto Text Sans Defect";
+    color: #999;
+}
+.text_footer1{
+    padding-right: 24px;
+    font-family: "Leto Text Sans Defect";
+    color: #999;
+}
+.footer_block{
+    display: flex;
+}
+.footer_block1{
+    display: flex;
+}
+
+@media (max-width: 700px){
+    .text_up{
+        font-size: 13px;
+    }
+    .main{
+        display: grid;
+        justify-content: left;
+    }
+    .main_text{
+        text-align:left;
+    }
+    .main_text1{
+        text-align:left;
+        font-size: 16px;
+    }
+    .main_text3{
+        max-width: none;
+        font-size: 16px;
+    }
+    .main_img{
+        max-width: 500px;
+        justify-items: center;
+    }
+    .midle{
+        display:inline
+    }
+    .midle_text1{
+        font-size: 24px;
+    }
+    .midle_text2{
+        font-size: 18px;
+    }
+    .icon{
+        display: grid;
+    }
+    .audio_icon{
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+    .audio_text{
+        padding-left: 10px;
+    }
+    .form_block{
+        display: grid;
+    }
+    .midle2{
+        display: grid;
+        padding-top: 0px;
+    }
+    .midle2_img{
+        padding-top: 50px;
+    }
+    .soc{
+        grid-gap: 150px;
+    }
+    .footer_block{
+        display: none;
+    }
+  }
